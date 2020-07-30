@@ -1,8 +1,17 @@
 nav {
+box-sizing: border-box;
   position: fixed;
   top: 0;
   left: 0;
-  margin: 10px;
+  margin: 20px;
+  width: 300px;
+  padding: 14px 30px 27px;
+  opacity: 0.5;
+
+}
+
+nav:hover{
+  opacity: 1;
 }
 
 nav a{
@@ -27,4 +36,10 @@ nav > ul > li:first-child {
 nav ul ul li {
   color: rgba(0, 0, 0, 0.4);
   margin-left: 10px;
+}
+@media (max-width: 1150px) {
+  nav{
+    display: none;
+  }
+
 }
