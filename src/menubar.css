@@ -1,0 +1,20 @@
+menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  background-color: white;
+  display: flex;
+}
+
+menu a{
+  font-family: 'PT Sans Caption', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.4);
+  text-decoration: none;
+}

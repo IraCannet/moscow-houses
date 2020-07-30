@@ -1,11 +1,10 @@
 nav {
-box-sizing: border-box;
   position: fixed;
   top: 0;
   left: 0;
-  margin: 20px;
   width: 300px;
   padding: 14px 30px 27px;
+  margin: 50px 0 0 20px;
   opacity: 0.5;
 
 }
@@ -34,8 +33,8 @@ nav > ul > li:first-child {
 }
 
 nav ul ul li {
-  color: rgba(0, 0, 0, 0.4);
   margin-left: 10px;
+  color: rgba(0, 0, 0, 0.4);
 }
 @media (max-width: 1150px) {
   nav{
