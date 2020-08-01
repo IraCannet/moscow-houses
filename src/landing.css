@@ -1,0 +1,45 @@
+body.landing{
+  background-image: url('../img/2560.jpg');
+  background-position: top center;
+}
+.contentWrapper{}
+  #section-1-image{
+    width: 1161px;
+    height: 680px;
+    background-image: url('../img/desktop-section-1-large.jpg')
+  }
+
+  #section-2-image{
+    width: 650px;
+    height: 675px;
+    background-image: url('../img/desktop-section-2-large.jpg');
+  }
+  #section-3-image{
+    width: 1393px;
+    height: 884px;
+    background-image: url('../img/desktop-section-3-large.jpg');
+  }
+
+  @media (max-width: 1920px){
+    body.landing {
+      background-image: url('../img/1920.jpg');
+      }
+    }
+
+  @media (max-width: 1680px){
+    body.landing {
+      background-image: url('../img/1680.jpg');
+      }
+    }
+
+  @media (max-width: 1440px){
+    body.landing {
+      background-image: url('../img/1440.jpg');
+      }
+    }
+
+  @media (max-width: 1280px){
+    body.landing {
+      background-image: url('../img/1280.jpg');
+    }
+  }
