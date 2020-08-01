@@ -1,5 +1,5 @@
 article{
-  padding-bottom: 70px;
+  padding: 50px 0 70px;
 }
 
 article h1,article h2,article h3,article h4,article p,article ol,article ul,article blockquote {
@@ -153,6 +153,7 @@ article blockquote + h2 {
 
 article ul {
   margin-top: 29px;
+  width: 670px
 }
 
 article ul + p {
@@ -171,8 +172,8 @@ article ul li{
 
 article ol li{
   list-style: decimal inside;
-  width: 597px;
-  margin-left:3px;
+  width: 680px;
+  margin-left:20px;
 }
 
 article b {
