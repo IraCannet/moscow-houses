@@ -60,7 +60,7 @@ body.landing{
   height: 681px;
 }
 
-#section-2 .contentContainer .textContainer{
+#section-2 .textContainer{
   position: absolute;
   top: 58px;
   right: 0;
@@ -73,6 +73,10 @@ body.landing{
   width: 650px;
   height: 675px;
   background-image: url('../img/desktop-section-2-large.jpg');
+}
+
+#section-3 .textContainer{
+
 }
 
 #section-3-image{
@@ -117,7 +121,7 @@ body.landing{
 }
 
 #section-4 .secondary{
-  color: #666666
+  color: #666666;
   background: white;
   border: 1 solid: #CCCCCC;
   margin-right: 20px;
