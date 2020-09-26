@@ -4,16 +4,18 @@ body.landing{
   background-repeat: no-repeat;
 }
 .contentWrapper{
+  position: relative;
+  width: 100%;
   height: 850px;
-  width: 1920px;
+  max-width: 1920px;
   margin: 0 auto;
-
 }
 
 .contentWrapper h2{
   font-family: 'PT Sans Caption', sans-serif;
   font-size: 36px;
   line-height: 46px;
+  overflow: hidden;
 }
 
 .contentWrapper p{
@@ -26,10 +28,6 @@ body.landing{
 .textContainer
 {
   width: 582px;
-}
-
-#section-1{
-  position: relative;
 }
 
   #section-1 .textContainer{
@@ -76,10 +74,15 @@ body.landing{
 }
 
 #section-3 .textContainer{
-
+  position: absolute;
+  top: 130px;
+  left: 120px;
 }
 
 #section-3-image{
+  position: absolute;
+  top: 145px;
+  left: 830px;
   width: 1393px;
   height: 884px;
   background-image: url('../img/desktop-section-3-large.jpg');
@@ -126,6 +129,14 @@ body.landing{
   border: 1 solid: #CCCCCC;
   margin-right: 20px;
 }
+
+@media (min-width: 1921px){
+  #section-3-image{
+    width: 1042px;
+    height: 660px;
+    background-size: cover;
+  }
+  }
 
 @media (max-width: 1920px){
   body.landing {
