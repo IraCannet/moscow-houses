@@ -100,45 +100,44 @@ body.landing {
   border-radius: 5px;
 }
 
-#section-4{
+#section-4 {
   padding-top: 130px;
 }
 
-#section-4 .textContainer{
+#section-4 .textContainer {
   width: 760px;
   margin: 0 auto;
   text-align: center;
 }
 
-#section-4 .buttonContainer{
+#section-4 .buttonContainer {
   display: flex;
   justify-content: center;
   margin-top: 80px;
 }
 
 #section-4 .primary,
-#section-4 .secondary{
+#section-4 .secondary {
   display: block;
   height: 52px;
   padding: 0 34px;
   line-height: 52px;
   border-radius: 5px;
-  font-family: 'PT Sans Caption', sans-serif;
+  font-family: "PT Sans Caption", sans-serif;
   font-size: 16px;
   text-decoration: none;
-
 }
 
-#section-4 .primary{
+#section-4 .primary {
   font-weight: bold;
   color: white;
   background: black;
 }
 
-#section-4 .secondary{
+#section-4 .secondary {
   color: #666666;
   background: white;
-  border: 1 solid: #CCCCCC;
+  border: 1px solid #cccccc;
   margin-right: 20px;
 }
 
@@ -149,9 +148,9 @@ body.landing {
   }
   }
 
-@media (max-width: 1920px){
-  body.landing {
-    background-image: url('../img/1920.jpg');
+  @media (max-width: 1920px) {
+    body.landing {
+      background-image: url("../images/1920.jpg");
     }
   }
 
