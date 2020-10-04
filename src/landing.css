@@ -1,96 +1,103 @@
-body.landing{
-  background-image: url('../img/2560.jpg');
+body.landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  background-image: url("../images/2560.jpg");
   background-position: center -50px;
   background-repeat: no-repeat;
 }
-.contentWrapper{
+.contentWrapper {
   position: relative;
   width: 100%;
-  height: 850px;
-  max-width: 1920px;
   min-width: 1440px;
-  margin: 0 auto;
-}
-
-.contentWrapper h2{
-  font-family: 'PT Sans Caption', sans-serif;
-  font-size: 36px;
-  line-height: 46px;
+  max-width: 1920px;
+  height: 850px;
   overflow: hidden;
 }
 
-.contentWrapper p{
+.contentWrapper h2 {
+  font-family: "PT Sans Caption", sans-serif;
+  font-size: 36px;
+  line-height: 46px;
+}
+
+.contentWrapper p {
   margin-top: 22px;
-  font-family: 'PT Sans Caption', sans-serif;
+  font-family: "PT Sans", sans-serif;
   font-size: 26px;
   line-height: 38px;
 }
 
-.textContainer
-{
+.textContainer {
   width: 582px;
 }
 
-.imageContainer{
+.imageContainer {
   background-size: cover;
 }
 
-  #section-1 .textContainer{
+#section-1 .textContainer {
   position: absolute;
   top: 130px;
   left: 120px;
 }
 
-
-  #section-1-image{
+#section-1-image {
   position: absolute;
   top: 147px;
   left: 729px;
   width: 1159px;
   height: 664px;
-  background-image: url('../img/desktop-section-1-large.jpg')
+  background-image: url("../images/desktop-section-1-large.jpg");
 }
 
-  #section-2{
+#section-2 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-#section-2 .contentContainer{
+#section-2 .contentContainer {
   position: relative;
   width: 1327px;
   height: 681px;
 }
 
-#section-2 .textContainer{
+#section-2 .textContainer {
   position: absolute;
   top: 58px;
   right: 0;
 }
 
-#section-2-image{
+#section-2-image {
   position: absolute;
   top: 0;
   left: 0;
   width: 649px;
-  height: 6754px;
-  background-image: url('../img/desktop-section-2-large.jpg');
+  height: 674px;
+  background-image: url("../images/desktop-section-2-large.jpg");
 }
 
-#section-3 .textContainer{
+#section-3 {
+  border-bottom: 1px solid #cccccc;
+}
+
+#section-3 .textContainer {
   position: absolute;
   top: 130px;
   left: 120px;
 }
 
-#section-3-image{
+#section-3-image {
   position: absolute;
   top: 145px;
   left: 830px;
   width: 1392px;
   height: 883px;
-  background-image: url('../img/desktop-section-3-large.jpg');
+  background-image: url("../images/desktop-section-3-large.jpg");
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
 }
 
 #section-4{
