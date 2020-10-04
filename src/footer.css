@@ -11,3 +11,9 @@ footer{
   color: rgba(102, 102, 102, 0.8);
   width: 100%;
 }
+
+@media (max-width: 1440px){
+  footer{
+    padding: 0 40px;
+  }
+}

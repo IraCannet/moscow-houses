@@ -17,7 +17,7 @@ menu div{
     max-width: 1920px;
     height: 50px;
     margin: 0 auto;
-    padding: 0 20px ;
+    padding: 0 40px ;
 }
 
 menu a{
@@ -44,4 +44,10 @@ menu a:hover{
 }
 menu a.current:hover {
     color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1440px){
+  menu div{
+      padding: 0 20px ;
+  }
 }
