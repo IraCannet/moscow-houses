@@ -344,7 +344,7 @@ body.landing {
   #section-2 {
     height: 1222px;
   }
-
+/*to check here*/
   #section-2 .contentContainer {
     position: static;
   }
@@ -371,7 +371,7 @@ body.landing {
     height: 1024px;
   }
 }
-
+/*
 @media (max-width: 767px) and (orientation: portrait) {
   .contentWrapper h2 {
     font-size: 18px;
@@ -458,3 +458,4 @@ body.landing {
     margin-right: 0;
   }
 }
+*/
