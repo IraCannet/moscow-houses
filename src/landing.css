@@ -3,9 +3,6 @@ body.landing {
   flex-direction: column;
   align-items: center;
   overflow-x: hidden;
-  background-image: url("../img/2560.jpg");
-  background-position: center -50px;
-  background-repeat: no-repeat;
 }
 .contentWrapper {
   position: relative;
@@ -151,23 +148,6 @@ body.landing {
   }
   }
 
-  @media (max-width: 1920px) {
-    body.landing {
-      background-image: url("../img/1920.jpg");
-    }
-  }
-
-  @media (max-width: 1680px) {
-    body.landing {
-      background-image: url("../img/1680.jpg");
-    }
-  }
-
-  @media (max-width: 1440px) {
-    body.landing {
-      background-image: url("../img/1440.jpg");
-    }
-
     .contentWrapper {
         height: 800px;
       }
@@ -217,16 +197,6 @@ body.landing {
 
   }
 
-  @media (max-width: 1280px) {
-    body.landing {
-      background-image: url("../img/1280.jpg");
-    }
-  }
-
-  @media (max-width: 1194px) {
-  body.landing {
-    background-image: url("../img/1194.jpg");
-  }
 
   .contentWrapper {
     min-width: auto;
@@ -291,11 +261,7 @@ body.landing {
   }
 }
 
-@media (max-width: 1024px) {
-  body.landing {
-    background-image: url("../img/1024.jpg");
-  }
-}
+
 
 @media (max-width: 1024px) and (orientation: portrait) {
   body.landing {
